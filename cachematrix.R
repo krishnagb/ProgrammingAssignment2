@@ -3,6 +3,7 @@
 
 ## Write a short comment describing this function
 
+# this functiond stores the inverse of a matrix and also provides accessor methods for matrix inverse
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
@@ -18,8 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)}
 
 
-## Write a short comment describing this function
-
+## This functiond checks if matrix inverse is already in cache, if not it stores the same
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 
